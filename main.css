@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font:15px/1.5 Arial, Helvectica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding:0;
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+h3{
+    text-align: center;
+
+}
+
+img.logo {
+    height: 75%;
+    width: 75%;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+
+}
+
+header{
+    background:white;
+    color:#000000;
+    padding-top:25px;
+    min-height:70px;
+    border-bottom: rgb(0, 0, 0) 3px solid;
+}
+
+header a{
+    color:#000000
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    a:visited{color: #888;}
+    
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 10px 10px 10px 10px;
+}
+
+header #logo{
+    float:left;
+
+}
+
+header #logo h1{
+    margin:0;
+
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+header a:hover{
+    color:#000000;
+    font-weight:bold;
+}
+
+#showcase{
+    min-height: 200px;
+    background:url('images/newbg.jpg') repeat 0 -600px;
+    text-align: center;
+    color:#ffffff;
+
+}
+
+#showcase h1{
+    margin-top:25px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#undershowcase{
+    padding:2px;
+    color:#ffffff;
+    background:#000000;
+}
+
+h2{
+    background: url('images/newbg.jpg') repeat 0 -820px;
+    border: #000000;
+    border-style: solid;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.social a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social {
+   position: fixed;
+   top: 50%;
+   right:0px;   
+   transform: translateY(-50%);
+
+  }
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:60px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
